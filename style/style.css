@@ -1,5 +1,5 @@
 body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 	overflow-x: hidden;
 }
@@ -13,33 +13,43 @@ div {
 	margin-left: 10px;
 }
 
-.titleimg {
-	padding-top: 50px;
+.bgtitle {
+	width: 95%;
 	margin: auto;
-	width: 50%;
+	background-color: dodgerblue;
+	height: 800px;
+	border-radius: 29% 71% 50% 50% / 63% 55% 45% 37%;
+}
+
+.titleimg {
+	padding-top: 180px;
+	margin: auto;
+	width: 80%;
 	display: flex;
 	align-items: center;
 }
 
 .title>h1 {
-	color: midnightblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
 	font-size: 100px;
 	line-height: 5px;
 }
 
 .title>h3 {
-	color: midnightblue;
+	font-style: italic;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
 	margin-left: 5px;
 	font-size: 25px;
 }
 
 .titleimg>img {
-	display: block;
-	height: 600px;
-	max-width: 550px;
+	width: 70%;
 }
 
 .slogan {
+	font-style: italic;
 	color: midnightblue;
 	margin-top: 50px;
 	font-size: 25px;
