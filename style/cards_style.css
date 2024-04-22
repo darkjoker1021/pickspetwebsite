@@ -1,0 +1,32 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap; /*Quando si riduce lo schermo, si mettono in colonna*/
+	width: 58%;
+	margin-bottom: 70px;
+}
+
+.card {
+	margin: 15px;
+	background-color: dodgerblue;
+	color: white;
+
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: center;
+	min-width: 300px;
+}
+
+.card>img {
+	max-width: 250px;
+	height: 130px;
+	border-radius: 10px;
+}
+
+.card:hover {
+	transition: all 0.5s ease;
+	transform: scale(1.1);
+	box-shadow: 0 5px 15px dodgerblue;
+}
