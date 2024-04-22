@@ -1,7 +1,6 @@
 .cards {
 	display: flex;
-	flex-wrap: wrap; /*Quando si riduce lo schermo, si mettono in colonna*/
-	width: 58%;
+	width: 72%;
 	margin-bottom: 70px;
 }
 
