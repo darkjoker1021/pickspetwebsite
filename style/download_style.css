@@ -1,0 +1,40 @@
+.scarica {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.scarica i {
+	margin-right: 10px;
+}
+
+.scarica>a {
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px;
+	margin: auto;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	height: 30px;
+	width: 200px;
+
+	background-color: dodgerblue;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.scarica>a:hover {
+	transition: all 0.5s ease;
+	transform: scale(1.2);
+	color: rgba(255, 255, 255, 1);
+	box-shadow: 0 5px 15px dodgerblue;
+}
+
+.scarica > center {
+	margin-bottom: 10px;
+}

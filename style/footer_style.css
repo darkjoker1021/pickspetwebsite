@@ -1,0 +1,8 @@
+footer {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: sticky;
+	box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+	backdrop-filter: blur(10px);
+}

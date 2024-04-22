@@ -1,0 +1,77 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: white;
+	margin: 0;
+}
+
+/* Nascondere scrollbar */
+body::-webkit-scrollbar {
+	display: none;
+}
+
+div {
+	margin-left: 10px;
+}
+
+.titleimg {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title > h1 {
+	color: midnightblue;
+	font-size: 100px;
+	line-height: 5px;
+}
+
+.title > h3 {
+	color: midnightblue;
+	margin-left: 5px;
+	font-size: 30px;
+}
+
+.titleimg > img {
+	height: 600px;
+	width: 400px;
+}
+
+.indice {
+	margin: auto;
+	width: 20%;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+
+.indice > h3 {
+	padding-left: 20px;
+}
+
+.indice > ul > li > a {
+	color: black;
+	text-decoration: underline;
+}
+
+.scopri {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.mockup {
+	display: block;
+	margin-right: 5%;
+	width: 10%;
+}
+
+.scopritxt {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.scopritxt > h1 {
+	line-height: 5px;
+}
