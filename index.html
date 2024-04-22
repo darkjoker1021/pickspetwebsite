@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="style/header_style.css">
 		<link rel="stylesheet" href="style/footer_style.css">
 		<link rel="stylesheet" href="style/download_style.css">
+		<link rel="stylesheet" href="style/description_style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<script src="script.js"></script>
@@ -19,74 +20,85 @@
 		<img src="img/logo.png" class="logo" alt="">
 		<img src="img/name.png" alt="logoname">
 
-		<button>
+		<button class="github-btn">
 			<a href="https://github.com/darkjoker1021/pickspetwebsite">GitHub</a>
 		</button>
 		
-		<button onclick="hideShowIndice()" id="btnindice">Indice</button>
+		<button onclick="hideShowIndice()" id="btnindice" class="indice-btn">Indice</button>
+
 	</header>
 
 	<body>
 		<div class="titleimg">
 			<div class="title">
 				<h1>PicksPet</h1>
-				<h3>Scarica gratuitamente l'app</h3>
+				<h3>Ogni zampa merita una casa</h3>
 			</div>
 
-			<img src="img/dog.png" alt="">
+			<img src="img/dogcat.png" alt="dogcat">
 		</div>
 
+		<center><h5 class="slogan">Apri il tuo cuore, apri un'app: l'amore a quattro zampe ti aspetta!</h5></center>
+
 		<div class="scarica" id="download">
-			<center>Clicca il bottone per scaricare</center>
+			<center>Clicca il bottone</center>
 			<a href="src/pickspet.apk" download><i class="fa fa-download"></i>Scarica l'app<br>(Android)</a>
 		</div>
 
-		<div class="indice" id="indice" style="display: none;">
-			<h3>Indice</h3>
-			<ul>
-				<li><a href="#download">Scarica app</a></li>
-				<li><a href="#scopri">Scopri</a></li>
-				<li><a href="#caratteristiche">Caratteristiche generali</a></li>
-				<li><a href="#contribuire">Come contribuire</a></li>
-			</ul>
-		</div>
-
-		
-
-		<div class="scopri" id="scopri">
-			<div class="scopritxt">
-				<h1>Scopri PicksPet!</h1>
-				<p>
-					Benvenuto su Pickspet! 🐾<br>
-					Pickspet è un'applicazione dedicata all'adozione di animali domestici.<br>
-					La nostra missione è trovare un nuovo e amorevole ambiente per tutti gli animali in cerca di casa.<br>
-					Con Pickspet, puoi sfogliare una vasta gamma di animali disponibili per l'adozione, leggere le loro storie e connetterti direttamente con i rifugi e gli enti di adozione.
-				</p>
+		<div class="description">
+			<div class="indice" id="indice" style="display: none;">
+				<h3>Indice</h3>
+				<ul>
+					<li><a href="#download">Scarica app</a></li>
+					<li><a href="#scopri">Scopri</a></li>
+					<li><a href="#caratteristiche">Caratteristiche principali</a></li>
+					<li><a href="#contribuire">Come contribuire</a></li>
+				</ul>
 			</div>
-			<img src="img/logo.png" class="mockup">
+	
+			<div class="scopri" id="scopri">
+				<div class="scopritxt">
+					<h1>Scopri PicksPet!</h1>
+					<p>
+						Benvenuto su Pickspet! 🐾<br>
+						Pickspet è un'applicazione dedicata all'adozione di animali domestici.<br>
+						La nostra missione è trovare un nuovo e amorevole ambiente per tutti gli animali in cerca di casa.<br>
+						Con Pickspet, puoi sfogliare una vasta gamma di animali disponibili per l'adozione, leggere le loro storie e connetterti direttamente con i rifugi e gli enti di adozione.
+					</p>
+				</div>
+
+				<img src="img/logoname.png" class="logo-des">
+			</div>
+	
+			<div class="caratteristiche" id="caratteristiche">
+				<img src="img/dog.png" class="dog-des">
+
+				<div class="caratteristichetxt">
+					<h1><b>Caratteristiche principali</b></h1>
+					<ul>
+						<li><b>Sfoglia animali:</b> Esplora una varietà di animali disponibili per l'adozione, filtrando per specie, razza, età e altro ancora.</li>
+						<li><b>Storie coinvolgenti:</b> Ogni animale ha una storia unica. Scopri le loro esperienze passate e le loro personalità per trovare il compagno perfetto.</li>
+						<li><b>Connettiti con i rifugi:</b> Contatta direttamente i rifugi e gli enti di adozione per pianificare incontri o ottenere ulteriori informazioni sull'animale che ti interessa.</li>
+						<li><b>Condivisione social:</b> Condividi le storie degli animali sui social media per aumentare le possibilità di trovare loro una casa.</li>
+					</ul>
+				</div>
+			</div>
+	
+			<div class="contribuire" id="contribuire">
+				<div class="contribuiretxt">
+					<h1><b>Come contribuire</b></h1>
+					Se sei appassionato di animali e vuoi contribuire a Pickspet, ecco alcuni modi in cui puoi aiutare:
+					<ul>
+						<li><b>Segnalazione di bug:</b> Trovato un problema? Segnalalo su GitHub, includendo dettagli sul problema e le eventuali schermate.</li>
+						<li><b>Sviluppo:</b> Se sei uno sviluppatore, puoi contribuire al codice sorgente di Pickspet. Forka il repository, implementa le tue modifiche e invia una pull request.</li>
+						<li><b>Miglioramenti delle funzionalità:</b> Hai un'idea per migliorare Pickspet? Condividila con noi aprendo una nuova issue su GitHub.</li>
+					</ul>
+				</div>
+
+				<img src="img/dog2.png" class="dog2-des">
+			</div>
 		</div>
 
-		<div class="caratteristiche" id="caratteristiche">
-			<h1><b>Caratteristiche principali</b></h1>
-			<hr>
-			<ul>
-				<li><b>Sfoglia animali:</b> Esplora una varietà di animali disponibili per l'adozione, filtrando per specie, razza, età e altro ancora.</li>
-				<li><b>Storie coinvolgenti:</b> Ogni animale ha una storia unica. Scopri le loro esperienze passate e le loro personalità per trovare il compagno perfetto.</li>
-				<li><b>Connettiti con i rifugi:</b> Contatta direttamente i rifugi e gli enti di adozione per pianificare incontri o ottenere ulteriori informazioni sull'animale che ti interessa.</li>
-				<li><b>Condivisione social:</b> Condividi le storie degli animali sui social media per aumentare le possibilità di trovare loro una casa.</li>
-			</ul>
-		</div>
-
-		<div class="contribuire" id="contribuire">
-			<h1><b>Come contribuire</b></h1>
-			<hr>
-			Se sei appassionato di animali e vuoi contribuire a Pickspet, ecco alcuni modi in cui puoi aiutare:
-			<ul>
-				<li><b>Segnalazione di bug:</b> Trovato un problema? Segnalalo su GitHub, includendo dettagli sul problema e le eventuali schermate.</li>
-				<li><b>Sviluppo:</b> Se sei uno sviluppatore, puoi contribuire al codice sorgente di Pickspet. Forka il repository, implementa le tue modifiche e invia una pull request.</li>
-				<li><b>Miglioramenti delle funzionalità:</b> Hai un'idea per migliorare Pickspet? Condividila con noi aprendo una nuova issue su GitHub.</li>
-			</ul>
-		</div>
 	</body>
 
 	<footer>

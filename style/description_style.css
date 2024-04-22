@@ -1,0 +1,64 @@
+/* Scopri */
+.scopri {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.scopritxt {
+	display: flex;
+	flex-direction: column;
+}
+
+.scopritxt>h1 {
+	line-height: 5px;
+}
+
+.logo-des {
+	margin-right: 5%;
+}
+
+/* Caratteristiche */
+.caratteristiche {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.caratteristichetxt {
+	display: flex;
+	flex-direction: column;
+	margin-left: 150px;
+}
+
+.caratteristichetxt>ul {
+	line-height: 25px;
+}
+
+.dog-des {
+	margin-left: 20px;
+	height: 300px;
+}
+
+/* Contribuire */
+.contribuire {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.contribuiretxt {
+	display: flex;
+	flex-direction: column;
+}
+
+.contribuiretxt>ul {
+	line-height: 25px;
+}
+
+.dog2-des {
+	margin-right: 5%;
+	height: 400px;
+}

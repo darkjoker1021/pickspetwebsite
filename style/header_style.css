@@ -17,7 +17,20 @@ header {
 header>img {
 	width: 250px;
 	margin: 10px;
-	margin-right: 60%;
+}
+
+.github-btn {
+	position: absolute;
+	top: 15px;
+	right: 200px;
+	margin-right: 5px !important;
+}
+
+.indice-btn {
+	position: absolute;
+	top: 15px;
+	right: 50px;
+	margin-right: 5px !important;
 }
 
 header>button {
@@ -25,12 +38,11 @@ header>button {
 	font-weight: bold;
 	padding: 10px;
 	display: flex;
-
+	margin-right: auto;
 	justify-content: center;
 	align-items: center;
 	margin-top: auto;
 	margin-bottom: auto;
-	margin-right: 20px;
 
 	height: 40px;
 	min-width: 100px;
