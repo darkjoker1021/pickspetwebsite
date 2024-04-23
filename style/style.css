@@ -23,9 +23,7 @@ div {
 }
 
 .bgtitle {
-	border: 1px solid black;
 	width: 95%;
-	/* height: 20%; */
 	margin: auto;
 	background-color: dodgerblue;
 	border-radius: 42% 58% 37% 63% / 59% 52% 48% 41%;
