@@ -32,21 +32,18 @@ div {
 }
 
 .bgtitle {
+	border: 1px solid black;
 	width: 95%;
-	max-height: 70vh;
+
+	display: flex;
+	flex-wrap: wrap;
 	margin: auto;
+	justify-content: center;
+	align-items: center;
+
 	background-color: dodgerblue;
 	border-radius: 42% 58% 37% 63% / 59% 52% 48% 41%;
 	margin-bottom: 50px;
-}
-
-.titleimg {
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	height: 500px;
 }
 
 .title>h1 {
@@ -62,10 +59,6 @@ div {
 	color: white;
 	font-size: 150%;
 	line-height: 0;
-}
-
-.titleimg>img {
-	width: 55%;
 }
 
 .indice {
