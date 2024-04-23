@@ -1,7 +1,6 @@
 /* Scopri */
 .scopri {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 50px;
@@ -23,7 +22,6 @@
 /* Caratteristiche */
 .caratteristiche {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	margin-bottom: 50px;
 }
@@ -46,7 +44,6 @@
 /* Contribuire */
 .contribuire {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 50px;
