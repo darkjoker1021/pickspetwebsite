@@ -4,6 +4,15 @@ body {
 	overflow-x: hidden;
 }
 
+.dark-mode {
+	background-color: #31363F;
+	color: white;
+
+	.indice>ul>li>a {
+		color: white;
+	}
+}
+
 /* Nascondere scrollbar */
 body::-webkit-scrollbar {
 	display: none;
@@ -14,25 +23,27 @@ div {
 }
 
 .bgtitle {
+	border: 1px solid black;
 	width: 95%;
+	/* height: 20%; */
 	margin: auto;
 	background-color: dodgerblue;
-	height: 800px;
-	border-radius: 29% 71% 50% 50% / 63% 55% 45% 37%;
+	border-radius: 42% 58% 37% 63% / 59% 52% 48% 41%;
+	margin-bottom: 50px;
 }
 
 .titleimg {
-	padding-top: 130px;
 	margin: auto;
-	width: 90%;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: end;
 	align-items: center;
 }
 
 .title>h1 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: white;
-	font-size: 100px;
+	font-size: 650%;
 	line-height: 5px;
 }
 
@@ -41,18 +52,11 @@ div {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: white;
 	margin-left: 5px;
-	font-size: 25px;
+	font-size: 150%;
 }
 
 .titleimg>img {
 	width: 70%;
-}
-
-.slogan {
-	font-style: italic;
-	color: midnightblue;
-	margin-top: 50px;
-	font-size: 25px;
 }
 
 .indice {
@@ -83,6 +87,7 @@ h1>center {
 	}
 
 	.title>h1 {
+		margin-left: 0;
 		font-size: 50px;
 		text-align: center;
 	}

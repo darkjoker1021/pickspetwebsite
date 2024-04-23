@@ -1,7 +1,10 @@
 .cards {
 	display: flex;
-	width: 72%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 70px;
+	justify-content: center;
+	flex-wrap: wrap;		/*Per mettere in colonna quando si ridimensiona la pagina*/
 }
 
 .card {

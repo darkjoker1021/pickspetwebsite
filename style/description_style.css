@@ -1,6 +1,7 @@
 /* Scopri */
 .scopri {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 50px;
@@ -16,13 +17,13 @@
 }
 
 .logo-des {
-	margin-left: 5%;
 	margin-right: 5%;
 }
 
 /* Caratteristiche */
 .caratteristiche {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	margin-bottom: 50px;
 }
@@ -30,7 +31,7 @@
 .caratteristichetxt {
 	display: flex;
 	flex-direction: column;
-	margin-left: 150px;
+	margin-left: 10%;
 }
 
 .caratteristichetxt>ul {
@@ -45,6 +46,7 @@
 /* Contribuire */
 .contribuire {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 50px;

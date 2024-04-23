@@ -18,15 +18,16 @@
 	</head>
 
 	<header>
-		<img src="img/logo.png" class="logo" alt="">
-		<img src="img/name.png" alt="logoname">
+		<img src="img/logo.png" class="logo" alt="logo">
+		<h1>PicksPet</h1>
 
-		<button class="github-btn">
-			<a href="https://github.com/darkjoker1021/pickspetwebsite">GitHub</a>
-		</button>
-		
-		<button onclick="hideShowIndice()" id="btnindice" class="indice-btn">Indice</button>
+		<div class="header-btns">
+			<a href="https://github.com/darkjoker1021/pickspetwebsite" target="_blank">GitHub</a> <!--target="_blank" per aprire il link in una nuova pagina-->
+			
+			<button onclick="hideShowIndice()" id="btnindice">Indice</button>
 
+			<button onclick="darkMode()" id="darkbtn">Chiaro</button>
+		</div>
 	</header>
 
 	<body>
@@ -41,34 +42,31 @@
 			</div>
 		</div>
 
-		<center><h5 class="slogan">Apri il tuo cuore, apri un'app: l'amore a quattro zampe ti aspetta!</h5></center>
+		<center><h2><i>Apri il tuo cuore, apri un'app: l'amore a quattro zampe ti aspetta!</i></h2></center>
 
 		<div class="scarica" id="download">
-			<center>Clicca il bottone</center>
+			<h2>Clicca il bottone</h2>
 			<a href="src/pickspet.apk" download><i class="fa fa-download"></i>Scarica l'app<br>(Android APK)</a>
 		</div>
 
 		<h1><center>Come funziona il sistema di adozione</center></h1>
-
-		<center>
-			<div class="cards">
-				<div class="card">
-					<img src="img/card1.png" alt="Card1">
-					<h2>Esplora</h2>
-					<p>Cerca nell'app l'amico migliore per te!</p>
-				</div>
-				<div class="card">
-					<img src="img/card2.jpg" alt="Card2">
-					<h2>Contatta</h2>
-					<p>Contatta il proprietario o il rifugio <br> dell'animale</p>
-				</div>
-				<div class="card">
-					<img src="img/card3.jpg" alt="Card3">
-					<h2>Adozione</h2>
-					<p>Porta a casa il tuo nuovo <br> amico a quattro zampe</p>
-				</div>
+		<div class="cards">
+			<div class="card">
+				<img src="img/card1.png" alt="Card1">
+				<h2>Esplora</h2>
+				<p>Cerca nell'app l'amico migliore per te!</p>
 			</div>
-		</center>
+			<div class="card">
+				<img src="img/card2.jpg" alt="Card2">
+				<h2>Contatta</h2>
+				<p>Contatta il proprietario o il rifugio <br> dell'animale</p>
+			</div>
+			<div class="card">
+				<img src="img/card3.jpg" alt="Card3">
+				<h2>Adozione</h2>
+				<p>Porta a casa il tuo nuovo <br> amico a quattro zampe</p>
+			</div>
+		</div>
 
 		<div class="description">
 			<div class="indice" id="indice" style="display: none;">
