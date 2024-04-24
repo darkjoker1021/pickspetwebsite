@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>PicksPet</title>
+
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" href="style/header_style.css">
+		<link rel="stylesheet" href="style/footer_style.css">
+		<link rel="stylesheet" href="style/form_style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<script src="script.js"></script>
+	</head>
+
+	<header>
+		<img src="img/logo.png" class="logo" alt="logo">
+		<h1>PicksPet</h1>
+
+		<div class="header-btns">
+			<a href="index.html" onclick="">Home</a>
+			
+			<a href="https://github.com/darkjoker1021/pickspetwebsite" target="_blank">GitHub</a> <!--target="_blank" per aprire il link in una nuova pagina-->
+			
+			<button onclick="darkMode()" id="darkbtn">Chiaro</button>
+		</div>
+	</header>
+
+	<body>
+		<div class="container">
+			<form>
+				<h1>Form per il contatto</h1>
+
+				<label for="name">Nome</label>
+				<input type="text" name="nametxt" id="name" placeholder="Nome e cognome">
+	
+				<label for="email">Email</label>
+				<input type="email" name="emailtxt" id="email" placeholder="email@domain.com">
+	
+				<label for="message">Messaggio</label>
+				<textarea name="message" id="message" cols="30" rows="5" placeholder="Inizio messaggio..."></textarea>
+
+				<label for="file">File</label>
+				<input type="file" name="file" id="file">
+	
+				<input type="submit" value="Invia email">
+				<input type="reset" value="Reset form" name="reset">
+			</form>
+		</div>
+	</body>
+
+	<footer>
+		<center>App e sito realizzato da Alessandro Canistro</center>
+	</footer>
+</html>

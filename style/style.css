@@ -11,11 +11,16 @@ body {
 }
 
 .dark-mode {
-	background-color: #31363F;
+	background: #31363F;
 	color: white;
 
 	.indice>ul>li>a {
 		color: white;
+	}
+
+	form>input, form>textarea {
+		color: white;
+		background: #31363F;
 	}
 }
 
@@ -36,7 +41,7 @@ body::-webkit-scrollbar {
 	justify-content: center;
 	align-items: center;
 
-	background-color: dodgerblue;
+	background: dodgerblue;
 	border-radius: 42% 58% 37% 63% / 59% 52% 48% 41%;
 	margin-bottom: 50px;
 }
