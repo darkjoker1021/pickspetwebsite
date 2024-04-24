@@ -5,9 +5,10 @@ function hideShowIndice() {
 	if (indice.style.display === "none") {
 		indice.style.display = "block";
 		button.style.backgroundColor = "midnightblue";
+		
 	} else {
 		indice.style.display = "none";
-		button.style.backgroundColor = "dodgerblue";
+		button.style.backgroundColor = "";		//Reset del colore di sfondo
 	}
 }
 
@@ -21,7 +22,7 @@ function darkMode() {
 	darkbtn.style.backgroundColor = "midnightblue";
   	darkbtn.innerHTML = "Scuro";
   } else {
-	darkbtn.style.backgroundColor = "dodgerblue";
+	darkbtn.style.backgroundColor = "";		//Reset del colore di sfondo
 	darkbtn.innerHTML = "Chiaro";
   }
 }

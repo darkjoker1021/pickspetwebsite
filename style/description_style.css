@@ -1,3 +1,13 @@
+.descrizione {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 /* Scopri */
 .scopri {
 	display: flex;
@@ -15,24 +25,29 @@
 	line-height: 5px;
 }
 
+.scopri>img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .logo-des {
 	margin-right: 5%;
 }
 
-/* Caratteristiche */
-.caratteristiche {
+/* Funzionalità */
+.funzionalita {
 	display: flex;
 	align-items: center;
 	margin-bottom: 50px;
 }
 
-.caratteristichetxt {
+.funzionalitatxt {
 	display: flex;
 	flex-direction: column;
 	margin-left: 10%;
 }
 
-.caratteristichetxt>ul {
+.funzionalitatxt>ul {
 	line-height: 25px;
 }
 
@@ -58,7 +73,25 @@
 	line-height: 25px;
 }
 
+.contribuire>img {
+	margin-left: auto;
+}
+
 .dog2-des {
 	margin-right: 5%;
 	height: 400px;
+}
+
+/*Style description*/
+.funzionalita>ul>li, .funzionalitatxt>ul>li>h2, .contribuiretxt>ul>li>h2 {
+	transition: all .2s ease;
+}
+
+.funzionalitatxt>ul>li>h2:hover, .contribuiretxt>ul>li>h2:hover {
+	content: "\2022";
+	color: dodgerblue;
+}
+
+.funzionalitatxt>ul>li:hover::marker, .contribuiretxt>ul>li:hover::marker {		/*Cambia colore marker lista*/
+	color: dodgerblue;
 }
