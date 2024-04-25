@@ -68,10 +68,10 @@ form>input[type=submit]:hover, form>input[type=reset]:hover {
 }
 
 form>textarea {
-	max-height: 100px;
+	min-height: 80px;
 	width: 100%;
 	padding: 5px;
-	resize: none;
+	resize: vertical;
 
 	outline: none;
 	border: 1px solid lightgray;
