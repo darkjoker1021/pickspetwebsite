@@ -26,6 +26,10 @@ body {
 		color: white;
 		background: #31363F;
 	}
+
+	footer {
+		background: #3b414c;
+	}
 }
 
 /* Nascondere scrollbar */
@@ -33,7 +37,11 @@ body::-webkit-scrollbar {
 	display: none;
 }
 
-.space {
+.space20 {
+	height: 20px;
+}
+
+.space50 {
 	height: 50px;
 }
 
