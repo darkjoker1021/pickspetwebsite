@@ -13,6 +13,10 @@ body {
 .dark-mode {
 	background: #31363F;
 	color: white;
+	
+	header>a>h1 {
+		color: white;
+	}
 
 	.indice>ul>li>a {
 		color: white;
