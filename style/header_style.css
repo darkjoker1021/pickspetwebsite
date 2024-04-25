@@ -33,6 +33,7 @@ header>a>h1 {
 	margin-left: auto;
 
 	display: flex;
+	flex-wrap: wrap;
 	gap: 10px;
 	flex-direction: row;
 	justify-content: center;
