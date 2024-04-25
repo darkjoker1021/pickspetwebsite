@@ -25,15 +25,6 @@
 	line-height: 5px;
 }
 
-.scopri>img {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.logo-des {
-	margin-right: 5%;
-}
-
 /* Funzionalità */
 .funzionalita {
 	display: flex;
@@ -51,17 +42,11 @@
 	line-height: 25px;
 }
 
-.dog-des {
-	margin-left: 20px;
-	height: 300px;
-}
-
 /* Contribuire */
 .contribuire {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 50px;
 }
 
 .contribuiretxt {
@@ -73,23 +58,15 @@
 	line-height: 25px;
 }
 
-.contribuire>img {
-	margin-left: auto;
-}
-
-.dog2-des {
-	margin-right: 5%;
-	height: 400px;
-}
-
 /*Style description*/
 .funzionalita>ul>li, .funzionalitatxt>ul>li>h2, .contribuiretxt>ul>li>h2 {
 	transition: all .2s ease;
 }
 
-.funzionalitatxt>ul>li>h2:hover, .contribuiretxt>ul>li>h2:hover {
-	content: "\2022";
-	color: dodgerblue;
+.funzionalitatxt>ul>li:hover, .contribuiretxt>ul>li:hover {
+	h2 {
+		color: dodgerblue;
+	}
 }
 
 .funzionalitatxt>ul>li:hover::marker, .contribuiretxt>ul>li:hover::marker {		/*Cambia colore marker lista*/
