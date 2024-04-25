@@ -87,12 +87,6 @@ header>a>h1 {
 	transition: all .5s ease;
 }
 
-.header-btns>button>a {
-	margin-right: 0;
-	text-decoration: none;
-	color: white;
-}
-
 .header-btns>button:hover {
 	background: midnightblue;
 }

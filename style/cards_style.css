@@ -1,8 +1,8 @@
 .cards {
 	display: flex;
+	flex-wrap: wrap;
 	margin-bottom: 70px;
 	justify-content: center;
-	flex-wrap: wrap;		/*Per mettere in colonna quando si ridimensiona la pagina*/
 }
 
 .card {
