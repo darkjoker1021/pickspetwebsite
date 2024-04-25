@@ -93,7 +93,7 @@ body::-webkit-scrollbar {
 
 .indice>ul>li>a {
 	color: black;
-	text-decoration: underline;
+	text-decoration: none;
 	transition: all .2s ease;
 	line-height: 20px;
 }
@@ -103,6 +103,7 @@ h1>center {
 }
 
 .indice>ul>li:hover, .indice>ul>li>a:hover {
+	text-decoration: underline;
 	color: dodgerblue;
 }
 
