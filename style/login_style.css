@@ -1,41 +1,61 @@
 .forms {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 .login {
+	height: 90vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	width: 70%;
-	margin-bottom: 50px;
 }
 
-.register {
+.signin {
+	height: 90vh;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 50px;
+	align-items: center;
 	width: 70%;
 }
 
-.row {
-	width: 50%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+.login>form>h5, .signin>form>h5 {
+	text-align: center;
 }
 
-.row>hr:first-child {
-	margin-right: 20px;
-	width: 100%;
+.login>form>h5>a, .signin>form>h5>a {
+	text-decoration: underline;
+	color: dodgerblue;
+	cursor: pointer;
 }
 
-.row>hr:last-child {
-	margin-left: 20px;
-	width: 100%;
+.fadeindiv {
+	animation: fadein 1s ease forwards;
+}
+
+.fadeoutdiv {
+	animation: fadeout 1s ease forwards;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeout {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
 }

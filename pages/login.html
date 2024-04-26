@@ -31,10 +31,8 @@
 	</header>
 
 	<body>
-		<div class="space50"></div>
-
 		<div class="forms">
-			<div class="login">
+			<div class="login" id="login">
 				<form action="../php/login.php" method="post">
 					<h1>Login utente</h1>
 		
@@ -48,14 +46,12 @@
 					<input type="password" name="password" required>
 		
 					<input type="submit" value="Accedi">
+
+					<h5>Non sei registrato? <a onclick="showSignin()" id="logintosignin">Registrati</a></h5>
 				</form>
 			</div>
 
-			<div class="row">
-				<hr>O<hr>
-			</div>
-	
-			<div class="register">
+			<div class="signin" id="signin" style="display: none;">
 				<form action="../php/register.php" method="post">
 					<h1>Registrazione utente</h1>
 		
@@ -72,12 +68,11 @@
 					<input type="date" name="dob">
 		
 					<input type="submit" value="Registrati">
+
+					<h5>Sei già registrato? <a onclick="showLogin()" id="signintologin">Accedi</a></h5>
 				</form>
 			</div>
 		</div>
-
-
-		<div class="space50"></div>
 	</body>
 
 	<footer>
