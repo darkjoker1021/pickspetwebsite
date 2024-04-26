@@ -18,9 +18,13 @@ body {
 		color: white;
 	}
 
-	form>input, form>textarea {
+	input, form>textarea {
 		color: white;
 		background: #31363F;
+	}
+
+	::-webkit-calendar-picker-indicator {		/*Inverte colore date input*/
+		filter: invert(1);
 	}
 
 	footer {
