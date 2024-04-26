@@ -84,6 +84,30 @@ h1>center {
 	font-size: 50px;
 }
 
+#top-btn {
+	display: none;
+	position: fixed;
+	width: 60px;
+	bottom: 30px;
+	right: 30px;
+	z-index: 99;
+	
+	background-color: dodgerblue;
+	color: white;
+	
+	padding: 15px;
+	border: 0;
+	border-radius: 10px;
+	font-size: 30px;
+
+	transition: all .3s ease;
+	cursor: pointer;
+}
+
+#top-btn:hover {
+	background-color: midnightblue;
+}
+
 /* Media query per gestire la visualizzazione su schermi ridimensionati */
 @media screen and (max-width: 768px) {
 img {

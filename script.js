@@ -40,3 +40,21 @@ function showSignin() {
     loginDiv.style.display = "none";
     signinDiv.style.display = "";
 }
+
+
+//Ritorna sopra
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  let top = document.getElementById("top-btn");
+
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    top.style.display = "block";
+  } else {
+    top.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
