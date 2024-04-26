@@ -1,0 +1,41 @@
+.forms {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	margin-bottom: 50px;
+}
+
+.register {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+	width: 70%;
+}
+
+.row {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.row>hr:first-child {
+	margin-right: 20px;
+	width: 100%;
+}
+
+.row>hr:last-child {
+	margin-left: 20px;
+	width: 100%;
+}

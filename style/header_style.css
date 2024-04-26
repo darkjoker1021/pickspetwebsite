@@ -29,6 +29,10 @@ header>a>h1 {
 	line-height: 0;
 }
 
+#back-btn {
+	cursor: pointer;
+}
+
 .header-btns {
 	margin-left: auto;
 
