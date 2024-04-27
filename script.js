@@ -1,18 +1,50 @@
+//Al cambio del documento, chiama la funzione initDarkMode()
+window.addEventListener("DOMContentLoaded", function() {
+  initThemeMode();
+});
+
+function initThemeMode() {
+  let darkMode = localStorage.getItem("darkMode") === "true";
+
+  let body = document.body;
+  let darkbtn = document.getElementById("darkbtn");
+
+  if (darkMode) {
+    body.classList.add("dark-mode");
+
+    darkbtn.innerHTML = "Chiaro";
+    darkbtn.style.backgroundColor = "midnightblue";
+  } else {
+    body.classList.remove("dark-mode");
+
+    darkbtn.innerHTML = "Scuro";
+    darkbtn.style.backgroundColor = "";
+  }
+}
+
+//Pulsante dark mode
 function darkMode() {
   let body = document.body;
   let darkbtn = document.getElementById("darkbtn");
 
-  body.classList.toggle("dark-mode");
+  let isDarkMode = body.classList.contains("dark-mode");
+  
+  if (!isDarkMode) {
+    body.classList.add("dark-mode");
+    localStorage.setItem("darkMode", "true");
 
-  if (darkbtn.innerHTML === "Chiaro") {
-	  darkbtn.style.backgroundColor = "midnightblue";
-  	darkbtn.innerHTML = "Scuro";
-  } else {
-    darkbtn.style.backgroundColor = "";
     darkbtn.innerHTML = "Chiaro";
+    darkbtn.style.backgroundColor = "midnightblue";
+  } else {
+    body.classList.remove("dark-mode");
+    localStorage.setItem("darkMode", "false");
+
+    darkbtn.innerHTML = "Scuro";
+    darkbtn.style.backgroundColor = "";
   }
 }
 
+//Link show div login
 function showLogin() {
     var loginDiv = document.getElementById("login");
     var signinDiv = document.getElementById("signin");
@@ -27,6 +59,7 @@ function showLogin() {
     loginDiv.style.display = "";
 }
 
+//Link show div signin
 function showSignin() {
     var loginDiv = document.getElementById("login");
     var signinDiv = document.getElementById("signin");
@@ -41,8 +74,7 @@ function showSignin() {
     signinDiv.style.display = "";
 }
 
-
-//Ritorna sopra
+//Rileva scroll e show pulsante verso sopra
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -55,6 +87,7 @@ function scrollFunction() {
   }
 }
 
+//Ritorna pagina sopra
 function topFunction() {
   document.documentElement.scrollTop = 0;
 }
