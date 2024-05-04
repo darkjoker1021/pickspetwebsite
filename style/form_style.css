@@ -101,6 +101,18 @@ input[type=file]::file-selector-button {
 	transition: all .2s ease;
 }
 
+.team {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: start;
+	line-height: 25px;
+}
+
+.team>h1{
+	line-height: 0;
+}
+
 .maps {
 	display: flex;
 	flex-direction: column;
